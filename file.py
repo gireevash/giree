@@ -1,0 +1,10 @@
+hi=int(input())
+bye=hi
+sum=0
+while(bye>0):
+   sum=sum+(bye%10)**3
+   bye=bye//10
+if(sum==hi):
+  print('yes')
+else:
+  print('no')
